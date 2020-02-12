@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-serial-perf",
+  "version": "1.0.0",
+  "description": "Benchmark for nodejs serialization",
+  "main": "lib/index.mjs",
+  "engines": {
+    "node": ">=12.16.0"
+  },
+  "scripts": {
+    "start": "node --experimental-modules ./",
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asilvas/nodejs-serial-perf.git"
+  },
+  "keywords": [
+    "serialization",
+    "json"
+  ],
+  "author": "Aaron Silvas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asilvas/nodejs-serial-perf/issues"
+  },
+  "homepage": "https://github.com/asilvas/nodejs-serial-perf#readme"
+}
